@@ -1,0 +1,46 @@
+--- Managers ---
+[
+  {
+    "id": 4,
+    "display_name": "ARUN"
+  }
+]
+
+--- Manager ID 4 in Employees Table ---
+[
+  {
+    "id": 2,
+    "tenant_code": "TEST001",
+    "user_id": 4,
+    "employee_code": "TE-7C9640",
+    "department_id": null,
+    "designation": null,
+    "phone": "9744534778",
+    "joining_date": "2026-01-31T18:30:00.000Z",
+    "face_registered": 0,
+    "profile_completed": 0,
+    "status": "ACTIVE",
+    "created_at": "2026-02-01T12:49:27.000Z",
+    "performance_score": 0
+  }
+]
+
+--- Enquiries ---
+[
+  {
+    "id": 1,
+    "sender_id": 6,
+    "sender_role": "EMPLOYEE",
+    "receiver_id": null,
+    "receiver_role": "ADMIN",
+    "subject": "sales area"
+  },
+  {
+    "id": 2,
+    "sender_id": 4,
+    "sender_role": "MANAGER",
+    "receiver_id": null,
+    "receiver_role": "ADMIN",
+    "subject": "salary"
+  }
+]

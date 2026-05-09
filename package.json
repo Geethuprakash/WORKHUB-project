@@ -1,0 +1,14 @@
+{
+    "name": "workhub",
+    "version": "1.0.0",
+    "description": "WorkHub Multi-Tenant Project",
+    "scripts": {
+        "dev": "start cmd /k \"cd backend && node server.js\" && start cmd /k \"cd web-app && npm run dev\"",
+        "start": "start npm start --prefix backend & npm start --prefix web-app",
+        "install-all": "npm install --prefix backend && npm install --prefix web-app"
+    },
+    "dependencies": {
+        "dotenv": "^17.3.1",
+        "mysql2": "^3.19.1"
+    }
+}
